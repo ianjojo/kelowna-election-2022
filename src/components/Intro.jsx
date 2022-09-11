@@ -1,11 +1,11 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import Countdown from "./Countdown";
 export default function Intro() {
   let deadline = "October, 14, 2022";
   return (
     <div className='intropage'>
-      {/* <ul className='menu'>
+      <ul className='menu'>
         <NavLink to='/mayor'>
           <li className='link'>Mayoral Candidates</li>
         </NavLink>
@@ -15,7 +15,7 @@ export default function Intro() {
         <NavLink to='/school'>
           <li className='link'>School Trustee Candidates</li>
         </NavLink>
-      </ul> */}
+      </ul>
 
       {/* <img src={Kelowna} className='kelowna' alt='' /> */}
       <p className='intro'>

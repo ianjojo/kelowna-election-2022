@@ -11,6 +11,10 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-family: "Lato", sans-serif;
 }
+.menu {
+  display: flex;
+  margin: 0 auto;
+}
 
 a {
   font-family: "Lato", sans-serif;
@@ -95,6 +99,7 @@ header {
   padding-left: 0;
   width: 500px;
 }
+
 .active:before {
   content: "";
   background: #54b3d6;
@@ -238,14 +243,6 @@ img {
   padding: 0 0.5rem;
 }
 @media all and (max-width: 500px) {
-  .mobile-title {
-    display: block;
-    position: absolute;
-    top: 0;
-    z-index: 20;
-    font-size: 16px;
-    padding-left: 8px;
-  }
 }
 
 @media all and (max-width: 768px) {
@@ -253,7 +250,12 @@ img {
     display: none;
   }
   .mobile-title {
-    display: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    font-size: 16px;
+    padding-left: 8px;
   }
   .header {
     display: none;

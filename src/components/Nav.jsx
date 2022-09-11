@@ -56,6 +56,7 @@ export default function Nav() {
         .navigation {
           width: 100%;
           height: 50px;
+          display: none
         }
 
         .navigation ul {
@@ -76,6 +77,9 @@ export default function Nav() {
           z-index: 6;
         }
         @media (max-width: 767px) {
+            .navigation {
+                display: block;
+            }
           .hamburger {
             height: 2rem;
             display: flex;

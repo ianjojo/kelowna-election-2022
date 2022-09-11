@@ -49,6 +49,8 @@ export const council = [
     website: "http://www.maxinedehart.ca/",
     image:
       "https://www.kelowna.ca/sites/files/1/images/dehart_maxine_resized.jpg",
+    blurb:
+      "Asked for my phone number and called me to explain that she doesn't have time to complete a summary and any information is available on her website. ",
   },
   {
     name: "Indy Dhial",
