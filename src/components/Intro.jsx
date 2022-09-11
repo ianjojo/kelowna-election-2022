@@ -1,8 +1,6 @@
 import React from "react";
-import Kelowna from "../images/kelowna2.jpeg";
-import { NavLink } from "react-router-dom";
+
 import Countdown from "./Countdown";
-import Hamburger from "./Hamburger";
 export default function Intro() {
   let deadline = "October, 14, 2022";
   return (

@@ -12,16 +12,10 @@ import {
 } from "react-router-dom";
 import Mayor from "./components/Mayor";
 import Info from "./components/Info";
-import Hamburger from "./components/Hamburger";
-import Nav from "./components/Nav";
-import { useState } from "react";
-function App() {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
-  const toggleHamburger = () => {
-    setHamburgerOpen(!hamburgerOpen);
-    console.log("click");
-  };
 
+import Nav from "./components/Nav";
+
+function App() {
   return (
     <Router>
       <div className='container'>

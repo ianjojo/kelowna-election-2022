@@ -3,11 +3,9 @@ import blank from "../images/blank.jpg";
 export default function Candidate(props) {
   let website = props.website;
   let email = props.email;
-  let image = props.image;
 
   let emailCode = `mailto:${email}`;
 
-  console.log(image);
   return (
     <div className='candidate'>
       {props.image ? (

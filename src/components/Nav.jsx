@@ -52,7 +52,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx='true'>{`
         .navigation {
           width: 100%;
           height: 50px;
