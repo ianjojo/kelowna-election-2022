@@ -61,6 +61,7 @@ function App() {
           <Route path='/school' element={<School />}></Route>
           <Route path='/info' element={<Info />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='*' element={<Home />} />
         </Routes>
         <Footer />
       </div>

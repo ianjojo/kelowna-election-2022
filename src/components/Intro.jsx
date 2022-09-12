@@ -29,9 +29,9 @@ export default function Intro() {
         I've contacted all candidates and asked for this short summary and so
         far very few people have responded. I get it - I'm not big media, I'm
         just a dude making a website - but this still influences my vote. What
-        began as a solution to a lack of earily attainable information in one
+        began as a solution to a lack of easily attainable information in one
         place about all candidates, has now become an interesting experiment in
-        discovering which candidates are responsive to the public (me).
+        discovering which candidates are responsive to the general public (me).
       </p>
       <Countdown deadline={deadline} />
       <p className='intro'>
