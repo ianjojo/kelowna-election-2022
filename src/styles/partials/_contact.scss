@@ -1,0 +1,45 @@
+.contact {
+  height: 80vh;
+
+  @include tablet {
+    /*  height: 100vh; */
+  }
+}
+.contact p {
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 500px;
+  padding-bottom: 12px;
+
+  @include tablet {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 22px;
+  }
+  @include iphonexr {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  @include iphone13 {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  @include largedesktop {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
+
+.contact h3 {
+  @include largedesktop {
+    padding-bottom: 30px;
+  }
+}

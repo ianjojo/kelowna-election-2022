@@ -39,7 +39,8 @@ export const school = [
     email: "trusteejuliafraser@telus.net",
     website: "http://trusteejuliafraser.com/",
     image: "https://www.kelowna.ca/sites/files/1/images/jt.jpg",
-    blurb: "",
+    blurb:
+      "The past 11 years as a School Trustee, I have proven to be an excellent steward by making vital and difficult decisions on our budget constraints. I've assisted in providing the school district with the appropriate oversight, planning, and management of the available resources to successfully achieve the district’s strategic goals. ",
   },
   {
     name: "Val Johnson",

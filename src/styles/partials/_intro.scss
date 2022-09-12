@@ -1,0 +1,95 @@
+.intropage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro {
+  width: 700px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 10px;
+
+  &:nth-of-type(3) {
+    width: 85%;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 50px;
+
+    @include tablet {
+      width: 85%;
+    }
+  }
+  @include tablet {
+    width: 85%;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @include iphonexr {
+    padding-top: 30px;
+    font-size: 15px;
+  }
+  @include iphone13 {
+    padding-top: 30px;
+    font-size: 15px;
+  }
+
+  @include largedesktop {
+    padding-bottom: 30px;
+    font-size: 15px;
+  }
+}
+
+#countdown {
+  padding: 0;
+  margin: 0;
+}
+#countdown h1 {
+  font-weight: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+
+  @include tablet {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+}
+
+#countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  padding-top: 0;
+  text-transform: uppercase;
+
+  @include tablet {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+}
+
+#countdown li span {
+  text-align: center;
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+
+  @include tablet {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+#headline {
+  padding: 0;
+  margin: 0;
+  padding-top: 24px;
+}
+.emoji span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
-import Candidate from "./Candidate";
+import Candidate from "../components/Candidate";
 import { NavLink } from "react-router-dom";
-import { school } from "../school";
+import { school } from "../data/school";
 
 export default function School() {
   return (

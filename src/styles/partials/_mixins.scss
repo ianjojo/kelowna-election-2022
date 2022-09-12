@@ -1,0 +1,32 @@
+@mixin tablet {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin iphonexr {
+  @media only screen and (device-width: 414px) and (device-height: 896px) {
+    @content;
+  }
+}
+@mixin iphone13 {
+  @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+}
+@mixin large-mobile {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin smallphone {
+  @media (max-width: 350px) {
+    @content;
+  }
+}
+@mixin largedesktop {
+  @media (min-width: 1300px) {
+    @content;
+  }
+}

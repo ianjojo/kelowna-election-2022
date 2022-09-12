@@ -88,11 +88,10 @@ export default function Nav() {
         .navigation {
           width: 100%;
           height: 50px;
-          display: none
+          display: none;
         }
 
         .navigation ul {
-          
           display: none;
           flex-wrap: wrap;
           float: right;
@@ -109,9 +108,9 @@ export default function Nav() {
           z-index: 6;
         }
         @media (max-width: 767px) {
-            .navigation {
-                display: block;
-            }
+          .navigation {
+            display: block;
+          }
           .hamburger {
             height: 2rem;
             display: flex;
@@ -125,15 +124,19 @@ export default function Nav() {
           .navigation ul {
             display: unset;
             display: ${hamburgerOpen ? "inline" : "none"};
-            background-color: #3b27cc;
-            height: 100vh;
-            width: 60vw;
+            background-color: #0c0c0c63;
+            backdrop-filter: blur(2px);
+            height: 40vh;
+            width: 100vw;
             margin-top: 50px;
+            text-align: center;
             position: fixed;
             z-index: 5;
           }
           .navigation ul li {
-            display: 
+            display: block;
+            text-align: center;
+            margin: 0 auto;
             list-style-type: none;
             // margin-right: 100px;
           }

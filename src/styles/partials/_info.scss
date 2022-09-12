@@ -1,0 +1,83 @@
+.info-list {
+  display: block;
+  list-style: circle;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.info-container {
+  height: 80vh;
+
+  @include tablet {
+    /*   height: 100vh; */
+  }
+}
+
+.info-container p {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 14px;
+  @include tablet {
+    width: 85%;
+  }
+  @include iphonexr {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  @include iphone13 {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  @include largedesktop {
+    font-size: 16px;
+  }
+}
+
+.info-container a {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.info-container a {
+  text-decoration: underline;
+
+  -webkit-text-fill-color: unset;
+}
+.info-container h3 {
+  padding-bottom: 10px;
+  @include iphonexr {
+    padding-top: 20px;
+  }
+  @include iphone13 {
+    padding-top: 20px;
+  }
+  @include largedesktop {
+    padding-bottom: 30px;
+  }
+}
+
+.info-container a:hover::before {
+  width: 0;
+}
+.info-container li {
+  font-size: 14px;
+  margin: 0 auto;
+  padding-left: 0;
+  width: 500px;
+  @include tablet {
+    width: 85%;
+  }
+  @include iphonexr {
+    font-size: 15px;
+  }
+  @include iphone13 {
+    font-size: 15px;
+  }
+
+  @include largedesktop {
+    font-size: 15px;
+  }
+}

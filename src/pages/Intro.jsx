@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Countdown from "./Countdown";
+import Countdown from "../components/Countdown";
 export default function Intro() {
   let deadline = "October, 14, 2022";
   return (

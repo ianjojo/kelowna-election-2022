@@ -1,12 +1,13 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import Candidate from "./Candidate";
+import "../data/mayor";
+import Candidate from "../components/Candidate";
 import { NavLink } from "react-router-dom";
-import { council } from "../council";
+import { mayors } from "../data/mayor";
 
 export default function Mayor() {
   return (
-    <>
+    <div>
       <ul className='menu'>
         <NavLink to='/mayor'>
           <li className='sublink'>Mayoral Candidates</li>
@@ -18,9 +19,8 @@ export default function Mayor() {
           <li className='sublink'>School Trustee Candidates</li>
         </NavLink>
       </ul>
-
       <div className='candidate-list'>
-        {council.map((data, key) => {
+        {mayors.map((data, key) => {
           return (
             <Candidate
               key={uuidv4()}
@@ -33,6 +33,6 @@ export default function Mayor() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }

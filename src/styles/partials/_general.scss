@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.proza {
+  font-family: "Proza Libre", sans-serif;
+}
+
+.bold {
+  font-weight: 800 !important;
+}
+body {
+  background: linear-gradient(
+      76deg,
+      rgba(50, 50, 165, 0.951),
+      rgba(16, 76, 119, 0.994)
+    ),
+    url("../images/mono-noise.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Proza Libre", sans-serif;
+  color: white;
+}
+
+a {
+  font-family: "Proza Libre", sans-serif;
+  text-decoration: none;
+  color: white;
+
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0 10px;
+  position: relative;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile-title {
+  display: none;
+
+  @include tablet {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    font-size: 16px;
+    padding-left: 8px;
+  }
+}
+.titlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+}
+
+.pagetitle {
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+  width: 400px;
+  font-size: 40px;
+  font-weight: 500;
+
+  @include tablet {
+    display: none;
+  }
+}
+h1 {
+  @include tablet {
+    font-size: 12px;
+  }
+}
+h3 {
+  text-align: center;
+  margin: 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+
+  @include tablet {
+    font-size: 12px;
+  }
+}
+
+.container {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    width: 100%;
+  }
+
+  @include largedesktop {
+    max-width: 1300px;
+    height: 100vh;
+  }
+}

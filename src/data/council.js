@@ -4,6 +4,8 @@ export const council = [
     email: "susanameskelowna@gmail.com",
     website: "https://susanames.ca",
     image: "https://www.kelowna.ca/sites/files/1/images/susan_ames_w_1.jpg",
+    blurb:
+      "Susan Ames is looking forward to meeting you and hearing what you have to say. What will make Kelowna the city we all want to live in…a vibrant place for all of us!",
   },
   {
     name: "Chris Becenko",
@@ -17,18 +19,24 @@ export const council = [
     email: "crizman@msn.com",
     website: "https://www.electbocskei2022.com/",
     image: "https://www.kelowna.ca/sites/files/1/images/cb.jpg",
+    blurb:
+      "As your councillor you can expect Chris to continue advocating for community safety programs, safe senior programs, and youth and teen programs.  Chris will listen to the concerns of Kelowna residents and act.",
   },
   {
     name: "Amarit Brar",
     email: "amaritforkelowna@gmail.com",
     website: "https://msha.ke/amaritbrar/",
     image: "https://www.kelowna.ca/sites/files/1/images/ab.jpg",
+    blurb:
+      "Amarit will be a voice to help build and make Kelowna a safer, healthier and stronger place for everyone. A place where we celebrate each other's unique characteristics and use each other's strengths to create a better community, for all.",
   },
   {
     name: "Ron Cannan",
     email: "voteron@roncannan.ca",
     website: "https://roncannan.ca/",
     image: "https://www.kelowna.ca/sites/files/1/images/rc.jpg",
+    blurb:
+      "I am very concerned that Kelowna has become the crime capital of Canada. Homelessness has increased substantially over the past 8 years, housing accessibility is more challenging than ever and our community is experiencing a serious infrastructure deficit all while mobility and overall quality of life is declining. ",
   },
   {
     name: "Sacheen Collecutt (Spirit Alliance)",
@@ -50,13 +58,15 @@ export const council = [
     image:
       "https://www.kelowna.ca/sites/files/1/images/dehart_maxine_resized.jpg",
     blurb:
-      "Asked for my phone number and called me to explain that she doesn't have time to complete a summary and any information is available on her website. ",
+      "Improved Public Safety will attract and retain people, business, and investment in our community. I will lobby governments to change the laws to keep repeat offenders off our streets. Ensure people of all ages and abilities can enjoy the Okanagan Lifestyle safely. Further Developing Vibrant Downtown and Business Centres.",
   },
   {
     name: "Indy Dhial",
     email: "info@indydhial4kelowna.com",
     website: "",
     image: "https://www.kelowna.ca/sites/files/1/images/id.jpg",
+    blurb:
+      "We have four years to make a lasting impact. I will help bring forward your vision of what the future of Kelowna could be. This is our opportunity to ensure our industries of tourism, agriculture, development, technology and education are safeguarded for the future while continuing to thrive.",
   },
   {
     name: "Darrin Fiddler",
@@ -69,21 +79,24 @@ export const council = [
     name: "Gail Given",
     email: "gail@gailgiven.com",
     website: "https://gailgiven.com/",
-    blurb: "",
+    blurb:
+      "It is through tenacity, leadership experience and relationship building skills that Gail will ensure we fully leverage both current and future opportunities, maintain the trust and confidence of those investing in our community and effectively implement the numerous projects and strategies already under way.",
     image: "https://www.kelowna.ca/sites/files/1/images/gg.jpg",
   },
   {
     name: "Bal Grewal",
     email: "BalforKelowna@outlook.com",
     website: "https://balforkelowna.ca/",
-    blurb: "",
+    blurb:
+      "I hope to wholeheartedly serve and increase the quality of life for the residents, and bring a fresh perspective in order to tackle our local problems and issues. I want to bring an open dialogue, respectful and honest representation for the good, hardworking, families of Kelowna.",
     image: "https://www.kelowna.ca/sites/files/1/images/bg_0.jpg",
   },
   {
     name: "Charlie Hodge",
     email: "charliehodge333@gmail.com",
     website: "https://www.charliehodge.ca/",
-    blurb: "",
+    blurb:
+      "Author Charlie Hodge is a veteran author with five decades experience as an award-winning journalist, photographer, and columnist. Charlie enjoys gardening and fly fishing when he is not at council or writing. He and wife Teresa share their Kelowna home with five spoiled cats.",
     image: "https://www.kelowna.ca/sites/files/1/images/ch.jpg",
   },
   {
@@ -124,7 +137,8 @@ export const council = [
     name: "Gord Lovegrove",
     email: "gord@lovegrovekelowna.ca",
     website: "http://www.lovegrovekelowna.ca/",
-    blurb: "",
+    blurb:
+      "My areas of expertise exactly match emerging Kelowna issues.  Engineers are strategic-thinkers and problem solvers who get the job down efficiently and effectively.  I offer sustainable development engineering experience. I’ve been trusted to teach Kelowna’s future leaders, will you trust me with your vote? ",
     image:
       "https://www.kelowna.ca/sites/files/1/images/gord_lovegrove_photo.png",
   },
@@ -139,8 +153,9 @@ export const council = [
     name: "Elaine McMurray",
     email: "voteelaine@gmail.com",
     website: "https://voteelaine.wixsite.com/kelowna",
-    blurb: "",
     image: "https://www.kelowna.ca/sites/files/1/images/elaine_mcmurray.png",
+    blurb:
+      "A Safe, Secure and Affordable Community where everyone can find adequate housing, can find meaningful employment that allows them to provide for their families, that Public transit, bike lanes and walking lanes are safe so we can all decide to safe our planet through our chosen actions.",
   },
   {
     name: "D. Ben Norman",
@@ -153,8 +168,9 @@ export const council = [
     name: "Brian Rogers",
     email: "84brogers@gmail.com",
     website: "",
-    blurb: "",
     image: "https://www.kelowna.ca/sites/files/1/images/014.jpg",
+    blurb:
+      "One of my primary concerns is public safety. Another urgent matter is the current council’s non-stop approval of property variances that cater to construction developers. I’d like to propose a ward system for our city to ensure all essential aspects required to maintain a flourishing community are being addressed.",
   },
   {
     name: "Zach Sawatzky",
@@ -167,7 +183,8 @@ export const council = [
     name: "Dan Schlosser",
     email: "rdanielschlosser@gmail.com",
     website: "https://www.dan-schlosser.com/",
-    blurb: "",
+    blurb:
+      "Kelowna is growing rapidly, and with that growth comes new challenges for us to face together. With your vote, My experience, dependability, and deep love for this city will help us continue to cultivate a thriving community.",
     image: "https://www.kelowna.ca/sites/files/1/images/campaign_photo.jpg",
   },
   {
@@ -181,7 +198,8 @@ export const council = [
     name: "Mohini Singh",
     email: "hello@mohinisingh.ca",
     website: "https://www.mohinisingh.ca/",
-    blurb: "",
+    blurb:
+      "A recent survey put the quality of life at the top of the list for our citizens. We need to balance that with a sense of safety, dealing with crime, preserving the environment, agricultural sustainability, and providing housing, and decent employment opportunities.",
     image: "https://www.kelowna.ca/sites/files/1/images/ms.jpg",
   },
   {
@@ -196,22 +214,25 @@ export const council = [
     name: "Peter Truch",
     email: "peter@petertruch.ca",
     website: "https://petertruch.ca/",
-    blurb: "",
+    blurb:
+      "With 20 years of developing his skills as a professional transportation engineer on projects at a local, national, and international level, Peter has extensive experience in reliable planning, community building, and sustainable engineering that puts people first.",
     image: "https://www.kelowna.ca/sites/files/1/images/pt.jpg",
   },
   {
     name: "Rick Webber",
     email: "voterickwebber@gmail.com",
     website: "https://www.facebook.com/are.dub.14",
-    blurb: "",
+    blurb:
+      "Rick Webber is running on a platform that includes increasing the police presence on our streets, better consultation between all levels of government to tackle the drug crisis, a stronger plan to regulate rapid development including downtown towers, and more projects to improve city traffic flow and parking.",
     image: "https://www.kelowna.ca/sites/files/1/images/rick_webber_0.jpg",
   },
   {
     name: "Noel Wentworth",
     email: "noelwentworth@shaw.ca",
     website: "https://www.votewentworth.ca/",
-    blurb: "",
-    image: "",
+    blurb:
+      "Through his various roles, Noel has become an excellent listener, problem solver, team player and creative mind. Within the past few months, He has watched many recorded and in person city council meetings to become familiar with our Cities plans and needs.",
+    image: "https://www.kelowna.ca/sites/files/1/images/nw.jpg",
   },
   {
     name: "Chris Williams (Spirit Alliance)",
@@ -224,7 +245,8 @@ export const council = [
     name: "Loyal Wooldridge",
     email: "loyal@loyalkelowna.com",
     website: "https://loyalkelowna.com/",
-    blurb: "",
+    blurb:
+      "As a Community Encourager I know we can meet our challenge head on, together. Kelowna is the entrepreneurial capital of Canada. There are solutions and wisdom found right here at home. It’s time for our fiscal excellence to be balanced with a social conscience – we must unite in collaboration.",
     image: "https://www.kelowna.ca/sites/files/1/images/lloyl_wooldridge_0.jpg",
   },
 ];
