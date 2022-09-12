@@ -1,5 +1,7 @@
 import React from "react";
 import blank from "../images/blank.jpg";
+import web from "../images/web.png";
+import mail from "../images/mail.png";
 export default function Candidate(props) {
   let website = props.website;
   let email = props.email;
@@ -17,10 +19,18 @@ export default function Candidate(props) {
       <h3 className='candidate__name'>{props.name}</h3>
       <div className='contact-box'>
         <h5 className='candidate__website'>
-          {website ? <a href={website}>website</a> : ""}
+          {website ? (
+            <a href={website}>
+              <img className='icon' src={web} alt='' />
+            </a>
+          ) : (
+            ""
+          )}
         </h5>
         <h5 className='candidate__email'>
-          <a href={emailCode}>email</a>
+          <a href={emailCode}>
+            <img className='icon' src={mail} alt='' />
+          </a>
         </h5>
       </div>
       <div className='blurb-box'>

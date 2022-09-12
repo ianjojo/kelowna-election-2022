@@ -50,6 +50,38 @@ export default function Nav() {
         <div className='hamburger' onClick={toggleHamburger}>
           <Hamburger isOpen={hamburgerOpen} />
         </div>
+        <ul className='menu'>
+          <NavLink to='/'>
+            <li className='sublink' onClick={closeHamburger}>
+              Home
+            </li>
+          </NavLink>
+          <NavLink to='/mayor'>
+            <li className='sublink' onClick={closeHamburger}>
+              Mayoral Candidates
+            </li>
+          </NavLink>
+          <NavLink to='/council'>
+            <li className='sublink' onClick={closeHamburger}>
+              Council Candidates
+            </li>
+          </NavLink>
+          <NavLink to='/school'>
+            <li className='sublink' onClick={closeHamburger}>
+              School Trustee Candidates
+            </li>
+          </NavLink>
+          <NavLink to='/info'>
+            <li className='sublink' onClick={closeHamburger}>
+              Voting Information
+            </li>
+          </NavLink>
+          <NavLink to='/contact'>
+            <li className='sublink' onClick={closeHamburger}>
+              Contact
+            </li>
+          </NavLink>
+        </ul>
       </div>
 
       <style jsx='true'>{`
@@ -93,9 +125,9 @@ export default function Nav() {
           .navigation ul {
             display: unset;
             display: ${hamburgerOpen ? "inline" : "none"};
-            background-color: #ffd54f;
+            background-color: #3b27cc;
             height: 100vh;
-            width: 40vw;
+            width: 60vw;
             margin-top: 50px;
             position: fixed;
             z-index: 5;
@@ -103,7 +135,7 @@ export default function Nav() {
           .navigation ul li {
             display: 
             list-style-type: none;
-            padding-right: 100px;
+            // margin-right: 100px;
           }
         }
       `}</style>

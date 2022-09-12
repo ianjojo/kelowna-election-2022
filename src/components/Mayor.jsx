@@ -10,13 +10,13 @@ export default function Mayor() {
     <div>
       <ul className='menu'>
         <NavLink to='/mayor'>
-          <li className='link'>Mayoral Candidates</li>
+          <li className='sublink'>Mayoral Candidates</li>
         </NavLink>
         <NavLink to='/council'>
-          <li className='link'>Council Candidates</li>
+          <li className='sublink'>Council Candidates</li>
         </NavLink>
         <NavLink to='/school'>
-          <li className='link'>School Trustee Candidates</li>
+          <li className='sublink'>School Trustee Candidates</li>
         </NavLink>
       </ul>
       <div className='candidate-list'>

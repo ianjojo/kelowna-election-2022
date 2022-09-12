@@ -19,11 +19,10 @@ export default function Contact() {
       <p>
         If you'd like to hire me, chat about a project, or if you're a candidate
         who wants to submit a summary for the site, please feel free to email me
-        at{" "}
+        at
         <a href='mailto:ianallanjohnston@gmail.com'>
           ianallanjohnston@gmail.com
         </a>
-        .
       </p>
       <p>This website was created in ~24 hours using React.js. </p>
     </div>

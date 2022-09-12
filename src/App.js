@@ -2,7 +2,7 @@ import Home from "./components/Home";
 import Council from "./components/Council";
 import School from "./components/School";
 import Contact from "./components/Contact";
-import "./App.css";
+import "./styles/App.css";
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,26 +14,46 @@ import Mayor from "./components/Mayor";
 import Info from "./components/Info";
 
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      <div className='container'>
-        <h1 className='mobile-title'>Kelowna 2022 Election Dashboard</h1>
-        <header className='header'>
-          <Link to='/'>
+      <h1 className='mobile-title'>
+        <span className='bold'> Kelowna 2022 Election</span> Dashboard
+      </h1>
+      <header className='header'>
+        {/*  <Link to='/'>
             <h1>Kelowna 2022 Election Dashboard</h1>
-          </Link>
-          <ul className='navbar'>
+          </Link> */}
+        <ul className='navbar'>
+          <NavLink to='/'>
+            <li className='navlink'>Home</li>
+          </NavLink>
+          <div className='navright'>
             <NavLink to='/info'>
-              <li className='link'>Voting Information</li>
+              <li className='navlink'>Voting Information</li>
             </NavLink>
             <NavLink to='/contact'>
-              <li className='link'>Contact</li>
+              <li className='navlink'>Contact</li>
             </NavLink>
-          </ul>
-        </header>
-        <Nav />
+          </div>
+        </ul>
+      </header>
+      <Nav />
+      <div className='container'>
+        <div className='titlebox'>
+          <Link to='/'>
+            <h1 className='pagetitle'>
+              <span className='bold'>
+                {" "}
+                Kelowna 2022 <br />
+                Election
+              </span>{" "}
+              Dashboard
+            </h1>
+          </Link>
+        </div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/mayor' element={<Mayor />}></Route>
@@ -42,6 +62,7 @@ function App() {
           <Route path='/info' element={<Info />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

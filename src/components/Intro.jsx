@@ -7,13 +7,13 @@ export default function Intro() {
     <div className='intropage'>
       <ul className='menu'>
         <NavLink to='/mayor'>
-          <li className='link'>Mayoral Candidates</li>
+          <li className='sublink'>Mayoral Candidates</li>
         </NavLink>
         <NavLink to='/council'>
-          <li className='link'>Council Candidates</li>
+          <li className='sublink'>Council Candidates</li>
         </NavLink>
         <NavLink to='/school'>
-          <li className='link'>School Trustee Candidates</li>
+          <li className='sublink'>School Trustee Candidates</li>
         </NavLink>
       </ul>
 
@@ -33,11 +33,11 @@ export default function Intro() {
         place about all candidates, has now become an interesting experiment in
         discovering which candidates are responsive to the public (me).
       </p>
+      <Countdown deadline={deadline} />
       <p className='intro'>
         Feel free to contact me with any questions or, if you're a candidate who
         hasn't submitted a fifty word summary, better late than never!
       </p>
-      <Countdown deadline={deadline} />
     </div>
   );
 }
