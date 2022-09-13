@@ -23,7 +23,11 @@ function App() {
       <Router>
         <h1 className='mobile-title'>
           <Link to='/'>
-            <span className='bold'> Kelowna 2022 Election</span> Dashboard
+            <span className='bold'>
+              {" "}
+              Kelowna 2022 <br /> Election
+            </span>{" "}
+            Dashboard
           </Link>
         </h1>
         <header className='header'>

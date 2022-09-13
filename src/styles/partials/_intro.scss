@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .intro {
   width: 700px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   padding: 10px;
 
@@ -64,6 +65,7 @@
 
   @include large-mobile {
     width: 350px;
+    margin: 0 auto;
   }
 }
 #countdown {
@@ -107,18 +109,23 @@
   @include large-mobile {
     padding: 1em 1em;
     margin: 0;
+    font-size: 12px;
   }
 }
 
 #countdown li span {
   text-align: center;
   display: block;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 2px;
 
   @include tablet {
     font-size: calc(3.375rem * var(--smaller));
+  }
+
+  @include large-mobile {
+    font-size: 25px;
   }
 }
 

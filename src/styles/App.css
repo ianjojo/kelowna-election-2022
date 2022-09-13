@@ -37,7 +37,8 @@ h5 {
   margin: 10px;
   padding: 10px;
   background-color: white;
-  transition: 0.1s transform linear; }
+  filter: brightness(0.9);
+  transition: 0.1s all linear; }
   @media (max-width: 833px) {
     .candidate {
       width: 50%;
@@ -46,7 +47,7 @@ h5 {
       height: 330px; } }
 
 .candidate:hover {
-  transform: scale(1.05); }
+  filter: brightness(1); }
 
 img {
   border-radius: 0px;
@@ -327,11 +328,12 @@ li {
 .intropage {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: 100vh; }
 
 .intro {
   width: 700px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   padding: 10px; }
   @media (max-width: 1100px) {
@@ -380,7 +382,8 @@ li {
   padding: 0; }
   @media (max-width: 500px) {
     #countdown ul {
-      width: 350px; } }
+      width: 350px;
+      margin: 0 auto; } }
 
 #countdown {
   padding: 0;
@@ -416,17 +419,21 @@ li {
   @media (max-width: 500px) {
     #countdown li {
       padding: 1em 1em;
-      margin: 0; } }
+      margin: 0;
+      font-size: 12px; } }
 
 #countdown li span {
   text-align: center;
   display: block;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 2px; }
   @media (max-width: 833px) {
     #countdown li span {
       font-size: calc(3.375rem * var(--smaller)); } }
+  @media (max-width: 500px) {
+    #countdown li span {
+      font-size: 25px; } }
 
 .emoji {
   display: none;
