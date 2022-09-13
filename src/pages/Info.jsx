@@ -27,12 +27,14 @@ export default function Info() {
         More information on registering to vote can be found{" "}
         <a href='https://elections.bc.ca/voting/register-to-vote/'> here.</a>
       </p>
+      <br />
       <p>
         A list of voting locations can be found{" "}
         <a href='https://www.kelowna.ca/city-hall/city-government/elections/voting-locations-map'>
           here.
         </a>{" "}
       </p>
+      <br />
       <p>
         If you'd prefer to vote by mail, you can click{" "}
         <a href='https://www.kelowna.ca/city-hall/city-government/elections/vote-election#:~:text=online,%EE%A2%9E'>

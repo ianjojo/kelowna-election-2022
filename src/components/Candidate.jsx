@@ -5,7 +5,6 @@ import mail from "../images/mail.png";
 export default function Candidate(props) {
   let website = props.website;
   let email = props.email;
-
   let emailCode = `mailto:${email}`;
 
   return (
@@ -20,7 +19,7 @@ export default function Candidate(props) {
       <div className='contact-box'>
         <h5 className='candidate__website'>
           {website ? (
-            <a href={website}>
+            <a href={website} target='_blank' rel='noreferrer'>
               <img className='icon' src={web} alt='' />
             </a>
           ) : (

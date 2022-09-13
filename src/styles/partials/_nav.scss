@@ -1,12 +1,16 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
+  @include largetablet {
+    padding-bottom: 40px;
+  }
 }
 .menu {
   display: flex;
   margin: 0 auto;
   width: 100%;
+  padding-bottom: 20px;
 
   @include tablet {
     display: none;
@@ -18,7 +22,7 @@
 }
 .navlink {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navlink:hover {
@@ -49,9 +53,11 @@ header {
 }
 
 .menu a.active {
-  background-color: rgba(255, 255, 255, 0.294);
+  background-color: rgba(255, 255, 255, 1);
   background-clip: content-box;
   border-radius: 50px;
+  color: $blue-primary;
+  font-weight: bold;
 }
 
 .sublink {
@@ -61,9 +67,14 @@ header {
   width: 230px;
   text-align: center;
   text-decoration: none;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
+  @include largetablet {
+    font-size: 14px;
+    width: 200px;
+  }
 }
 
 .sublink:hover {
-  background: rgba(255, 255, 255, 0.144);
+  background: rgba(255, 255, 255, 0.8);
+  color: $blue-primary;
 }

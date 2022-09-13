@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Countdown from "../components/Countdown";
 export default function Intro() {
-  let deadline = "October, 14, 2022";
+  let deadline = "October, 15, 2022";
   return (
     <div className='intropage'>
       <ul className='menu'>
@@ -27,11 +27,9 @@ export default function Intro() {
       </p>
       <p className='intro'>
         I've contacted all candidates and asked for this short summary and so
-        far very few people have responded. I get it - I'm not big media, I'm
-        just a dude making a website - but this still influences my vote. What
-        began as a solution to a lack of easily attainable information in one
-        place about all candidates, has now become an interesting experiment in
-        discovering which candidates are responsive to the general public (me).
+        far very few people have responded. I've attempted to fill in the
+        non-responders' summaries with information from the web - if any
+        candidate would like to update their text, send me a message.
       </p>
       <Countdown deadline={deadline} />
       <p className='intro'>

@@ -22,21 +22,22 @@ function App() {
     <div className='App'>
       <Router>
         <h1 className='mobile-title'>
-          <span className='bold'> Kelowna 2022 Election</span> Dashboard
+          <Link to='/'>
+            <span className='bold'> Kelowna 2022 Election</span> Dashboard
+          </Link>
         </h1>
         <header className='header'>
           <ul className='navbar'>
-            <NavLink to='/'>
+            {/*  <NavLink to='/'>
               <li className='navlink'>Home</li>
+            </NavLink> */}
+
+            <NavLink to='/info'>
+              <li className='navlink'>Voting Information</li>
             </NavLink>
-            <div className='navright'>
-              <NavLink to='/info'>
-                <li className='navlink'>Voting Information</li>
-              </NavLink>
-              <NavLink to='/contact'>
-                <li className='navlink'>Contact</li>
-              </NavLink>
-            </div>
+            <NavLink to='/contact'>
+              <li className='navlink'>Contact</li>
+            </NavLink>
           </ul>
         </header>
         <Nav />

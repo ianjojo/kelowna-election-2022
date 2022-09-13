@@ -13,6 +13,12 @@ h5 {
   height: 12px;
   width: auto;
   border-radius: 0;
+  padding: 0;
+  transition: 0.2s filter linear;
+
+  &:hover {
+    filter: hue-rotate(90deg);
+  }
 }
 
 .candidate a {
@@ -22,11 +28,12 @@ h5 {
 .candidate__name {
   color: #343f91;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .candidate {
   width: 190px;
-  height: 420px;
+  height: 410px;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
@@ -50,7 +57,8 @@ h5 {
   transform: scale(1.05);
 }
 img {
-  border-radius: 10px;
+  border-radius: 0px;
+  padding-top: 8px;
 }
 .candidate-list {
   margin: 0 auto;
@@ -75,6 +83,7 @@ img {
 }
 
 .blurb {
+  margin-top: 2px;
   padding: 10px;
   padding-top: 0;
   color: #664e98;

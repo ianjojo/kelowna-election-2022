@@ -1,9 +1,10 @@
 .info-list {
   display: block;
-  list-style: circle;
+  list-style: disc;
   font-size: 14px;
-  line-height: 16px;
-  font-weight: bold;
+
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .info-container {
@@ -18,6 +19,11 @@
   margin: 0 auto;
   width: 500px;
   font-size: 14px;
+  line-height: 22px;
+  @include largetablet {
+    font-size: 18px;
+    line-height: 28px;
+  }
   @include tablet {
     width: 85%;
   }
@@ -65,8 +71,13 @@
 .info-container li {
   font-size: 14px;
   margin: 0 auto;
-  padding-left: 0;
+
   width: 500px;
+  padding: 5px 0;
+  @include largetablet {
+    font-size: 18px;
+    line-height: 28px;
+  }
   @include tablet {
     width: 85%;
   }

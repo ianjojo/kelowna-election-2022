@@ -1,5 +1,10 @@
+@mixin largetablet {
+  @media (max-width: 1100px) {
+    @content;
+  }
+}
 @mixin tablet {
-  @media (max-width: 767px) {
+  @media (max-width: 833px) {
     @content;
   }
 }
@@ -21,12 +26,12 @@
 }
 
 @mixin smallphone {
-  @media (max-width: 350px) {
+  @media (max-width: 375px) {
     @content;
   }
 }
 @mixin largedesktop {
-  @media (min-width: 1300px) {
+  @media (min-width: 1500px) {
     @content;
   }
 }
