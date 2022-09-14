@@ -178,7 +178,8 @@ export const council = [
     name: "Zach Sawatzky",
     email: "zachsawatzky@gmail.com",
     website: "http://zachsawatzky.ca/",
-    blurb: "",
+    blurb:
+      "My services would include a comprehensive review of council's current spending to help identify gaps AND opportunities. I will also provide ideas for CREATING NEW REVENUE for the city to help fund the changes we so desperately need.",
     image: "https://www.kelowna.ca/sites/files/1/images/zs.jpg",
   },
   {
