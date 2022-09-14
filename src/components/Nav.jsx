@@ -16,11 +16,6 @@ export default function Nav() {
     <div>
       <div className='navigation'>
         <ul>
-          <NavLink to='/'>
-            <li className='link' onClick={closeHamburger}>
-              Home
-            </li>
-          </NavLink>
           <NavLink to='/mayor'>
             <li className='link' onClick={closeHamburger}>
               Mayoral Candidates
@@ -50,44 +45,41 @@ export default function Nav() {
         <div className='hamburger' onClick={toggleHamburger}>
           <Hamburger isOpen={hamburgerOpen} />
         </div>
-        <ul className='menu'>
-          <NavLink to='/'>
-            <li className='sublink' onClick={closeHamburger}>
-              Home
-            </li>
-          </NavLink>
-          <NavLink to='/mayor'>
-            <li className='sublink' onClick={closeHamburger}>
-              Mayoral Candidates
-            </li>
-          </NavLink>
-          <NavLink to='/council'>
-            <li className='sublink' onClick={closeHamburger}>
-              Council Candidates
-            </li>
-          </NavLink>
-          <NavLink to='/school'>
-            <li className='sublink' onClick={closeHamburger}>
-              School Trustee Candidates
-            </li>
-          </NavLink>
-          <NavLink to='/info'>
-            <li className='sublink' onClick={closeHamburger}>
-              Voting Information
-            </li>
-          </NavLink>
-          <NavLink to='/contact'>
-            <li className='sublink' onClick={closeHamburger}>
-              Contact
-            </li>
-          </NavLink>
-        </ul>
+        <div className='menubox'>
+          <ul className='menu'>
+            <NavLink to='/mayor'>
+              <li className='sublink' onClick={closeHamburger}>
+                Mayoral Candidates
+              </li>
+            </NavLink>
+            <NavLink to='/council'>
+              <li className='sublink' onClick={closeHamburger}>
+                Council Candidates
+              </li>
+            </NavLink>
+            <NavLink to='/school'>
+              <li className='sublink' onClick={closeHamburger}>
+                School Trustee Candidates
+              </li>
+            </NavLink>
+            <NavLink to='/info'>
+              <li className='sublink' onClick={closeHamburger}>
+                Voting Information
+              </li>
+            </NavLink>
+            <NavLink to='/contact'>
+              <li className='sublink' onClick={closeHamburger}>
+                Contact
+              </li>
+            </NavLink>
+          </ul>
+        </div>
       </div>
 
       <style jsx='true'>{`
         .navigation {
           width: 100%;
-          height: 50px;
+          height: 100px;
           display: none;
         }
 
@@ -120,25 +112,35 @@ export default function Nav() {
             margin-left: 10px;
             z-index: 6;
           }
-
+          .navigation ul {
+          }
           .navigation ul {
             display: unset;
             display: ${hamburgerOpen ? "inline" : "none"};
-            background-color: #0c0c0c63;
-            backdrop-filter: blur(2px);
-            height: 40vh;
-            width: 100vw;
-            margin-top: 50px;
-            text-align: center;
+            background: #5952f1;
+            background-size: contain;
             position: fixed;
+            height: 100vh;
+            width: 100vw;
+            padding-top: 125px;
+            text-align: center;
+
             z-index: 5;
           }
+
           .navigation ul li {
             display: block;
             text-align: center;
             margin: 0 auto;
             list-style-type: none;
             // margin-right: 100px;
+            border: 1px solid white;
+            border-radius: 45px;
+            padding: 10px 10px;
+            width: 210px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s linear;
           }
         }
       `}</style>

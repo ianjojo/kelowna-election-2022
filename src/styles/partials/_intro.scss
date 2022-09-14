@@ -1,8 +1,24 @@
 .intropage {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+
+  /*   height: 100vh; */
+
+  @include ipadair {
+    display: flex;
+    flex-direction: column;
+
+    /*  height: 100vh; */
+  }
+  @include ipadmini {
+    display: flex;
+    flex-direction: column;
+
+    /* height: 100vh; */
+  }
+  @include largedesktop {
+    height: unset;
+  }
 }
 
 .intro {
@@ -10,7 +26,6 @@
   font-size: 16px;
   margin: 0 auto;
   padding: 10px;
-
   @include largetablet {
     line-height: 28px;
     font-size: 18px;
@@ -34,10 +49,38 @@
     @include tablet {
       width: 85%;
     }
+    @include ipadair {
+      width: 700px;
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    @include ipadmini {
+      width: 700px;
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0 auto;
+      padding: 10px;
+    }
   }
   @include tablet {
     width: 85%;
     font-size: 14px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @include ipadair {
+    width: 700px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @include ipadmini {
+    width: 700px;
+    font-size: 18px;
+    line-height: 30px;
     margin: 0 auto;
     padding: 10px;
   }

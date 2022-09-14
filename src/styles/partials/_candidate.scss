@@ -53,6 +53,39 @@ h5 {
     min-width: 300px;
     height: 330px;
   }
+  @include ipadair {
+    width: 190px;
+    height: 410px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    filter: brightness(0.9);
+
+    transition: 0.1s all linear;
+  }
+
+  @include ipadmini {
+    width: 190px;
+    height: 410px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    filter: brightness(0.9);
+
+    transition: 0.1s all linear;
+  }
 }
 
 .candidate:hover {
@@ -74,6 +107,20 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+
+  @include ipadair {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @include ipadmini {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 

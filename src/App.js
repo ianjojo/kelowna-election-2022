@@ -25,8 +25,10 @@ function App() {
           <Link to='/'>
             <span className='bold'>
               {" "}
-              Kelowna 2022 <br /> Election
+              Kelowna <br />
+              2022 Election
             </span>{" "}
+            <br />
             Dashboard
           </Link>
         </h1>

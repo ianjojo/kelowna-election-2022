@@ -12,6 +12,8 @@ export const council = [
     email: "makekelownaaffordableagain@gmail.com",
     website: "https://www.facebook.com/profile.php?id=100085260172159",
     image: "https://www.kelowna.ca/sites/files/1/images/chris_b.jpg",
+    blurb:
+      "I grew up in the Okanagan and I have spent my entire career in Commercial Finance.  The focus of my platform is to Make Kelowna Affordable Again, and I have a 5-point plan to get there.",
   },
 
   {
@@ -58,7 +60,7 @@ export const council = [
     image:
       "https://www.kelowna.ca/sites/files/1/images/dehart_maxine_resized.jpg",
     blurb:
-      "Improved Public Safety will attract and retain people, business, and investment in our community. I will lobby governments to change the laws to keep repeat offenders off our streets. Ensure people of all ages and abilities can enjoy the Okanagan Lifestyle safely. Further Developing Vibrant Downtown and Business Centres.",
+      "Improved Public Safety will attract and retain people, business, and investment in our community. I will lobby governments to change the laws to keep repeat offenders off our streets. Ensure people of all ages and abilities can enjoy the Okanagan Lifestyle safely.",
   },
   {
     name: "Indy Dhial",
@@ -112,7 +114,7 @@ export const council = [
     email: "james@jameskay4kelowna.ca",
     website: "https://jameskay4kelowna.ca/",
     blurb:
-      "Community Safety, Attainable Housing, and an Efficient City Hall.  This comes through Respecting the Taxpayer, and Growing Responsibly.  We deserve better; yet, need to live within our means.  Civil Engineer, 5-years at City Hall, Father, Husband, Philanthropist.  Please vote for better value, impact, and outcomes.  James Kay 4 Kelowna!",
+      "Community Safety, Attainable Housing, and an Efficient City Hall.  This comes through Respecting the Taxpayer, and Growing Responsibly.  We deserve better; yet, need to live within our means.  Civil Engineer, 5-years at City Hall, Father, Husband, Philanthropist. ",
     image: "https://www.kelowna.ca/sites/files/1/images/james_kay.jpg",
   },
 
@@ -121,7 +123,7 @@ export const council = [
     email: "kyleforkelowna@gmail.com",
     website: "https://www.kyleforkelowna.com/",
     blurb:
-      "Davis Kyle, 25, is a financial management professional with experience working in both the private and public sectors, most recently on highway improvement contracts for PSPC Pacific Region. His detailed policy platform focuses on making Kelowna more affordable, safe, and prosperous for all residents, while keeping Kelowna beautiful and livable.",
+      "Davis Kyle, 25, is a financial management professional with experience working in both the private and public sectors, most recently on highway improvement contracts for PSPC Pacific Region. His detailed policy platform focuses on making Kelowna more affordable, safe, and prosperous for all residents.",
     image: "https://www.kelowna.ca/sites/files/1/images/davis_kyle.jpg",
   },
 

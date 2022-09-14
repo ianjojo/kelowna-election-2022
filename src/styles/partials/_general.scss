@@ -3,9 +3,29 @@ html {
 }
 
 .App {
-  height: 100vh;
+  /*   height: 100vh; */
   display: flex;
   flex-direction: column;
+
+  @include ipadair {
+    height: 100vh;
+  }
+
+  @include ipadmini {
+    height: 100vh;
+  }
+
+  @include tablet {
+    height: 100%;
+  }
+
+  @include large-mobile {
+    height: 100%;
+  }
+
+  @include smallphone {
+    height: 100%;
+  }
 }
 .manrope {
   font-family: "Manrope", sans-serif;
@@ -19,12 +39,8 @@ html {
   font-weight: 800 !important;
 }
 body {
-  background: linear-gradient(
-      76deg,
-      rgba(50, 50, 165, 0.951),
-      rgba(16, 76, 119, 0.994)
-    ),
-    url("../images/mono-noise.jpeg");
+  /*  background: url("../images/bckggr.jpg"); */
+  background: #5952f1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,9 +72,10 @@ a {
   @include tablet {
     display: block;
     position: absolute;
-    top: 0;
+    top: -10px;
     z-index: 20;
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 400;
     padding-left: 8px;
   }
 }
