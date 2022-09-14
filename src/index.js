@@ -5,7 +5,8 @@ import App from "./App";
 import ReactGA from "react-ga4";
 const TRACKING_ID = "G-RZ3BKB4RVX";
 ReactGA.initialize(TRACKING_ID);
-ReactGA.pageview(window.location.pathname + window.location.search);
+/* ReactGA.pageview(window.location.pathname + window.location.search); */
+ReactGA.send("pageview");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
