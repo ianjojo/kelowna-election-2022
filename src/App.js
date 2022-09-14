@@ -19,59 +19,63 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className='App'>
-      <Router>
-        <h1 className='mobile-title'>
-          <Link to='/'>
-            <span className='bold'>
-              {" "}
-              Kelowna <br />
-              2022 Election
-            </span>{" "}
-            <br />
-            Dashboard
-          </Link>
-        </h1>
-        <header className='header'>
-          <ul className='navbar'>
-            {/*  <NavLink to='/'>
+    <div id='page-container'>
+      <div id='content-wrap'>
+        <div className='App'>
+          <Router>
+            <h1 className='mobile-title'>
+              <Link to='/'>
+                <span className='bold'>
+                  {" "}
+                  Kelowna <br />
+                  2022 Election
+                </span>{" "}
+                <br />
+                Dashboard
+              </Link>
+            </h1>
+            <header className='header'>
+              <ul className='navbar'>
+                {/*  <NavLink to='/'>
               <li className='navlink'>Home</li>
             </NavLink> */}
 
-            <NavLink to='/info'>
-              <li className='navlink'>Voting Information</li>
-            </NavLink>
-            <NavLink to='/contact'>
-              <li className='navlink'>Contact</li>
-            </NavLink>
-          </ul>
-        </header>
-        <Nav />
-        <div className='container'>
-          <div className='titlebox'>
-            <Link to='/'>
-              <h1 className='pagetitle'>
-                <span className='bold'>
-                  {" "}
-                  Kelowna 2022 <br />
-                  Election
-                </span>{" "}
-                Dashboard
-              </h1>
-            </Link>
-          </div>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/mayor' element={<Mayor />}></Route>
-            <Route path='/council' element={<Council />}></Route>
-            <Route path='/school' element={<School />}></Route>
-            <Route path='/info' element={<Info />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='*' element={<Home />} />
-          </Routes>
+                <NavLink to='/info'>
+                  <li className='navlink'>Voting Information</li>
+                </NavLink>
+                <NavLink to='/contact'>
+                  <li className='navlink'>Contact</li>
+                </NavLink>
+              </ul>
+            </header>
+            <Nav />
+            <div className='container'>
+              <div className='titlebox'>
+                <Link to='/'>
+                  <h1 className='pagetitle'>
+                    <span className='bold'>
+                      {" "}
+                      Kelowna 2022 <br />
+                      Election
+                    </span>{" "}
+                    Dashboard
+                  </h1>
+                </Link>
+              </div>
+              <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/mayor' element={<Mayor />}></Route>
+                <Route path='/council' element={<Council />}></Route>
+                <Route path='/school' element={<School />}></Route>
+                <Route path='/info' element={<Info />}></Route>
+                <Route path='/contact' element={<Contact />}></Route>
+                <Route path='*' element={<Home />} />
+              </Routes>
+            </div>
+          </Router>
         </div>
-        <Footer />
-      </Router>
+      </div>
+      <Footer />
     </div>
   );
 }

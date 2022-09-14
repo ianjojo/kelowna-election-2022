@@ -9,11 +9,13 @@ export default function Candidate(props) {
 
   return (
     <div className='candidate'>
-      {props.image ? (
-        <img src={props.image} alt='candidate' />
-      ) : (
-        <img src={blank} alt='candidate' />
-      )}
+      <div className='candidate-image-box'>
+        {props.image ? (
+          <img src={props.image} alt='candidate' className='candidate-image' />
+        ) : (
+          <img src={blank} alt='candidate' />
+        )}
+      </div>
 
       <h3 className='candidate__name'>{props.name}</h3>
       <div className='contact-box'>
