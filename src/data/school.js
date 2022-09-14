@@ -4,6 +4,7 @@ export const school = [
     email: "makekelownaaffordableagain@gmail.com",
     website: "https://www.facebook.com/profile.php?id=100085260172159",
     image: "https://www.kelowna.ca/sites/files/1/images/chris_b_0.jpg",
+    replied: true,
     blurb:
       "I grew up in the Okanagan and I have spent my entire career in Commercial Finance.  The focus of my platform is to Make Kelowna Affordable Again, and I have a 5-point plan to get there.",
   },
@@ -39,6 +40,7 @@ export const school = [
     name: "Julia Fraser",
     email: "trusteejuliafraser@telus.net",
     website: "http://trusteejuliafraser.com/",
+    replied: true,
     image: "https://www.kelowna.ca/sites/files/1/images/jt.jpg",
     blurb:
       "The past 11 years as a School Trustee, I have proven to be an excellent steward by making vital and difficult decisions on our budget constraints. I've assisted in providing the school district with the appropriate  management of the available resources to successfully achieve the district’s strategic goals. ",
