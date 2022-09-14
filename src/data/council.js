@@ -42,7 +42,7 @@ export const council = [
       "I am very concerned that Kelowna has become the crime capital of Canada. Homelessness has increased substantially over the past 8 years, housing accessibility is more challenging than ever and our community is experiencing a serious infrastructure deficit all while mobility and overall quality of life is declining. ",
   },
   {
-    name: "Sacheen Collecutt (Spirit Alliance)",
+    name: "Sacheen Collecutt",
     email: "",
     website: "https://addictedtofear.org/",
     image: "",
@@ -145,7 +145,7 @@ export const council = [
     email: "gord@lovegrovekelowna.ca",
     website: "http://www.lovegrovekelowna.ca/",
     blurb:
-      "My areas of expertise exactly match emerging Kelowna issues.  Engineers are strategic-thinkers and problem solvers who get the job down efficiently and effectively.  I offer sustainable development engineering experience. I’ve been trusted to teach Kelowna’s future leaders, will you trust me with your vote? ",
+      "My areas of expertise exactly match emerging Kelowna issues.  Engineers are strategic-thinkers and problem solvers who get the job done efficiently and effectively.  I offer sustainable development engineering experience. I’ve been trusted to teach Kelowna’s future leaders, will you trust me with your vote? ",
     image:
       "https://www.kelowna.ca/sites/files/1/images/gord_lovegrove_photo.png",
   },
@@ -249,7 +249,7 @@ export const council = [
     replied: true,
   },
   {
-    name: "Chris Williams (Spirit Alliance)",
+    name: "Chris Williams",
     email: "info@spiritalliance.ca",
     website: "https://spiritalliance.ca/",
     blurb: "",

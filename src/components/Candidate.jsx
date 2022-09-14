@@ -14,7 +14,7 @@ export default function Candidate(props) {
         {props.image ? (
           <img src={props.image} alt='candidate' className='candidate-image' />
         ) : (
-          <img src={blank} alt='candidate' />
+          <img src={blank} alt='candidate' className='candidate-image' />
         )}
       </div>
 
