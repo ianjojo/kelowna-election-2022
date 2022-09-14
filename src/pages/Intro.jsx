@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Countdown from "../components/Countdown";
+import check from "../images/check.png";
 export default function Intro() {
   let deadline = "October, 15, 2022";
   return (
@@ -30,6 +31,10 @@ export default function Intro() {
         far very few people have responded. I've attempted to fill in the
         non-responders' summaries with information from the web - if any
         candidate would like to update their text, send me a message.
+      </p>
+      <p className='intro'>
+        The candidates who have replied to my email are now marked with a{" "}
+        <img className='introcheck' src={check} alt='check mark' /> icon.
       </p>
       <Countdown deadline={deadline} />
       <p className='intro'>

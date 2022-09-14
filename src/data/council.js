@@ -14,6 +14,7 @@ export const council = [
     image: "https://www.kelowna.ca/sites/files/1/images/chris_b.jpg",
     blurb:
       "I grew up in the Okanagan and I have spent my entire career in Commercial Finance.  The focus of my platform is to Make Kelowna Affordable Again, and I have a 5-point plan to get there.",
+    replied: true,
   },
 
   {
@@ -99,6 +100,7 @@ export const council = [
     website: "https://www.charliehodge.ca/",
     blurb:
       "Author Charlie Hodge is a veteran author with five decades experience as an award-winning journalist, photographer, and columnist. Charlie enjoys gardening and fly fishing when he is not at council or writing. He and wife Teresa share their Kelowna home with five spoiled cats.",
+    replied: true,
     image: "https://www.kelowna.ca/sites/files/1/images/ch.jpg",
   },
   {
@@ -107,6 +109,7 @@ export const council = [
     website: "https://danieljoseph.ca/",
     blurb:
       "We're 10 years behind on homelessness, rising crime, traffic congestion, and facing an affordability crisis. One of the most effective tools the municipality has to mitigate all of these issues, is proactive and strategic zoning. City council must adopt a nuanced approach to bridge the gap between residents and developers.",
+    replied: true,
     image: "https://www.kelowna.ca/sites/files/1/images/dj.jpg",
   },
   {
@@ -115,6 +118,7 @@ export const council = [
     website: "https://jameskay4kelowna.ca/",
     blurb:
       "Community Safety, Attainable Housing, and an Efficient City Hall.  This comes through Respecting the Taxpayer, and Growing Responsibly.  We deserve better; yet, need to live within our means.  Civil Engineer, 5-years at City Hall, Father, Husband, Philanthropist. ",
+    replied: true,
     image: "https://www.kelowna.ca/sites/files/1/images/james_kay.jpg",
   },
 
@@ -124,6 +128,7 @@ export const council = [
     website: "https://www.kyleforkelowna.com/",
     blurb:
       "Davis Kyle, 25, is a financial management professional with experience working in both the private and public sectors, most recently on highway improvement contracts for PSPC Pacific Region. His detailed policy platform focuses on making Kelowna more affordable, safe, and prosperous for all residents.",
+    replied: true,
     image: "https://www.kelowna.ca/sites/files/1/images/davis_kyle.jpg",
   },
 
@@ -158,6 +163,7 @@ export const council = [
     image: "https://www.kelowna.ca/sites/files/1/images/elaine_mcmurray.png",
     blurb:
       "A Safe, Secure and Affordable Community where everyone can find adequate housing, can find meaningful employment that allows them to provide for their families, that Public transit, bike lanes and walking lanes are safe so we can all decide to safe our planet through our chosen actions.",
+    replied: true,
   },
   {
     name: "D. Ben Norman",
@@ -181,6 +187,7 @@ export const council = [
     blurb:
       "My services would include a comprehensive review of council's current spending to help identify gaps AND opportunities. I will also provide ideas for CREATING NEW REVENUE for the city to help fund the changes we so desperately need.",
     image: "https://www.kelowna.ca/sites/files/1/images/zs.jpg",
+    replied: true,
   },
   {
     name: "Dan Schlosser",
@@ -189,6 +196,7 @@ export const council = [
     blurb:
       "Kelowna is growing rapidly, and with that growth comes new challenges for us to face together. With your vote, My experience, dependability, and deep love for this city will help us continue to cultivate a thriving community.",
     image: "https://www.kelowna.ca/sites/files/1/images/campaign_photo.jpg",
+    replied: true,
   },
   {
     name: "Anthony Shephard",
@@ -212,6 +220,7 @@ export const council = [
     blurb:
       "During my last 4 terms on Kelowna City Council I have learned how to be an effective Councillor. Looking forward I will focus on community safety, affordable housing expansion and protecting the quality of life citizens of Kelowna desire. I will support the expansion of outdoor recreation facilities and public amenities.",
     image: "https://www.kelowna.ca/sites/files/1/images/_smh5040_m_0.jpg",
+    replied: true,
   },
   {
     name: "Peter Truch",
@@ -228,6 +237,7 @@ export const council = [
     blurb:
       "Rick Webber is running on a platform that includes increasing the police presence on our streets, better consultation between all levels of government to tackle the drug crisis, a stronger plan to regulate rapid development including downtown towers, and more projects to improve city traffic flow and parking.",
     image: "https://www.kelowna.ca/sites/files/1/images/rick_webber_0.jpg",
+    replied: true,
   },
   {
     name: "Noel Wentworth",
@@ -236,6 +246,7 @@ export const council = [
     blurb:
       "Through his various roles, Noel has become an excellent listener, problem solver, team player and creative mind. Within the past few months, He has watched many recorded and in person city council meetings to become familiar with our Cities plans and needs.",
     image: "https://www.kelowna.ca/sites/files/1/images/nw.jpg",
+    replied: true,
   },
   {
     name: "Chris Williams (Spirit Alliance)",

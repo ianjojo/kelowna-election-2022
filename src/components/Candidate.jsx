@@ -2,6 +2,7 @@ import React from "react";
 import blank from "../images/blank.jpg";
 import web from "../images/web.png";
 import mail from "../images/mail.png";
+import check from "../images/check.png";
 export default function Candidate(props) {
   let website = props.website;
   let email = props.email;
@@ -33,6 +34,15 @@ export default function Candidate(props) {
             <img className='icon' src={mail} alt='' />
           </a>
         </h5>
+        {props.replied === true ? (
+          <img
+            className='icon2'
+            src={check}
+            alt='checkbox to show this candidate has replied to my email'
+          />
+        ) : (
+          ""
+        )}
       </div>
       <div className='blurb-box'>
         <p className='blurb'>

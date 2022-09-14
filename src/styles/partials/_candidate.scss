@@ -28,6 +28,19 @@ h5 {
     filter: hue-rotate(90deg);
   }
 }
+.icon2 {
+  height: 15px;
+  width: auto;
+  border-radius: 0;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 6px;
+  transition: 0.2s filter linear;
+
+  &:hover {
+    filter: hue-rotate(90deg);
+  }
+}
 
 .candidate a {
   text-decoration: underline;
@@ -38,7 +51,10 @@ h5 {
   font-weight: bold;
   padding-top: 10px;
 }
-
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
 .candidate {
   width: 190px;
   height: 410px;

@@ -1,3 +1,9 @@
+.introcheck {
+  width: 15px;
+  height: auto;
+  display: inline;
+}
+
 .intropage {
   display: flex;
   flex-direction: column;
@@ -20,7 +26,10 @@
     height: unset;
   }
 }
-
+.extraintro {
+  font-size: 16px;
+  margin: 0 auto;
+}
 .intro {
   width: 700px;
   font-size: 16px;
@@ -38,7 +47,7 @@
     }
   }
 
-  &:nth-of-type(3) {
+  &:nth-of-type(4) {
     width: 85%;
     font-size: 14px;
     margin: 0 auto;

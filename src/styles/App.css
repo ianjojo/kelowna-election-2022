@@ -22,6 +22,17 @@ h5 {
   .icon:hover {
     filter: hue-rotate(90deg); }
 
+.icon2 {
+  height: 15px;
+  width: auto;
+  border-radius: 0;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 6px;
+  transition: 0.2s filter linear; }
+  .icon2:hover {
+    filter: hue-rotate(90deg); }
+
 .candidate a {
   text-decoration: underline;
   -webkit-text-fill-color: unset; }
@@ -30,6 +41,10 @@ h5 {
   color: #343f91;
   font-weight: bold;
   padding-top: 10px; }
+
+.contact-box {
+  display: flex;
+  justify-content: center; }
 
 .candidate {
   width: 190px;
@@ -426,6 +441,11 @@ li {
     .info-container li {
       font-size: 15px; } }
 
+.introcheck {
+  width: 15px;
+  height: auto;
+  display: inline; }
+
 .intropage {
   display: flex;
   flex-direction: column;
@@ -444,6 +464,10 @@ li {
     .intropage {
       height: unset; } }
 
+.extraintro {
+  font-size: 16px;
+  margin: 0 auto; }
+
 .intro {
   width: 700px;
   font-size: 16px;
@@ -458,7 +482,7 @@ li {
     @media (max-width: 1100px) {
       .intro:nth-of-type(1) {
         margin-top: 0; } }
-  .intro:nth-of-type(3) {
+  .intro:nth-of-type(4) {
     width: 85%;
     font-size: 14px;
     margin: 0 auto;
@@ -466,17 +490,17 @@ li {
     padding-bottom: 0;
     text-align: center; }
     @media (max-width: 833px) {
-      .intro:nth-of-type(3) {
+      .intro:nth-of-type(4) {
         width: 85%; } }
     @media only screen and (device-width: 820px) and (device-height: 1180px) {
-      .intro:nth-of-type(3) {
+      .intro:nth-of-type(4) {
         width: 700px;
         font-size: 18px;
         line-height: 30px;
         margin: 0 auto;
         padding: 10px; } }
     @media only screen and (device-width: 768px) and (device-height: 1024px) {
-      .intro:nth-of-type(3) {
+      .intro:nth-of-type(4) {
         width: 700px;
         font-size: 18px;
         line-height: 30px;

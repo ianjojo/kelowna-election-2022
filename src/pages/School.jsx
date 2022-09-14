@@ -30,6 +30,7 @@ export default function School() {
               image={data.image}
               email={data.email}
               blurb={data.blurb}
+              replied={data.replied}
             />
           );
         })}
