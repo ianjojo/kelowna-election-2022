@@ -23,6 +23,10 @@ export default function Contact() {
         <a href='mailto:ianallanjohnston@gmail.com'>
           ianallanjohnston@gmail.com
         </a>
+        or check out my portfolio
+        <a href='https://ianjojo.netlify.app/' target='_blank' rel='noreferrer'>
+          here.
+        </a>
       </p>
       <p>This website was created in ~24 hours using React.js. </p>
     </div>

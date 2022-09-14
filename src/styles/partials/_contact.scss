@@ -38,7 +38,9 @@
     padding-bottom: 30px;
   }
 }
-
+.contact a {
+  text-decoration: underline;
+}
 .contact-box {
   display: flex;
   justify-content: center;

@@ -177,6 +177,9 @@ img {
       font-size: 16px;
       padding-bottom: 30px; } }
 
+.contact a {
+  text-decoration: underline; }
+
 .contact-box {
   display: flex;
   justify-content: center; }
@@ -213,6 +216,9 @@ img {
   height: 4.5rem;
   /* Footer height */
   margin-top: auto; }
+
+.footer a {
+  text-decoration: underline; }
 
 html {
   box-sizing: border-box; }
