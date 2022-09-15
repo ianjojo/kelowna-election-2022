@@ -43,9 +43,12 @@ export const council = [
   },
   {
     name: "Sacheen Collecutt",
-    email: "",
+    email: "sacheenc@spiritalliance.ca",
     website: "https://addictedtofear.org/",
-    image: "",
+    image: "./sacheen.jpg",
+    blurb:
+      "We can no longer afford to keep turning a blind eye. We need sustainable programs in mental health and wellness they are the key to our survival on this planet and will also determine success on all levels of life.",
+    replied: true,
   },
   {
     name: "Greg Dahms",
