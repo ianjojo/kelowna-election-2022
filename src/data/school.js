@@ -50,7 +50,9 @@ export const school = [
     email: "val4trustee@gmail.com",
     website: "https://www.facebook.com/ValJohnsonSD23/",
     image: "https://www.kelowna.ca/sites/files/1/images/headshot_city.jpg",
-    blurb: "",
+    blurb:
+      "I’m a progressive candidate focusing on inclusive school spaces and education resources. I believe in equitable education for all. Our community learners deserve to have their individual needs met.  I intend to work collaboratively with fellow school board trustees, school staff and administration, and community partners.",
+    replied: true,
   },
   {
     name: "Erika Shephard",

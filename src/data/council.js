@@ -166,7 +166,7 @@ export const council = [
     replied: true,
   },
   {
-    name: "D. Ben Norman",
+    name: "Daniel Norman",
     email: "danielbnorman@gmail.com",
     website: "",
     blurb: "",
@@ -244,7 +244,7 @@ export const council = [
     email: "noelwentworth@shaw.ca",
     website: "https://www.votewentworth.ca/",
     blurb:
-      "Through his various roles, Noel has become an excellent listener, problem solver, team player and creative mind. Within the past few months, He has watched many recorded and in person city council meetings to become familiar with our Cities plans and needs.",
+      "Noel has been a performing artist, business owner, advocate for music education equality and represents arts and culture on the COEDC. He has raised over $270,000 to help sick children locally, has created musical bursaries and championed the Report Drunk Drivers signs around our city.",
     image: "https://www.kelowna.ca/sites/files/1/images/nw.jpg",
     replied: true,
   },
@@ -252,8 +252,10 @@ export const council = [
     name: "Chris Williams",
     email: "info@spiritalliance.ca",
     website: "https://spiritalliance.ca/",
-    blurb: "",
+    blurb:
+      "I am ready to tackle the housing crisis, opioid epidemic and explosion of crime that we are now in. I believe there is a way out. I am ready to act and will bring short and long term solutions that will ensure safety, security and stability for the community.",
     image: "https://www.kelowna.ca/sites/files/1/images/cw.jpg",
+    replied: true,
   },
   {
     name: "Loyal Wooldridge",

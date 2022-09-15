@@ -12,7 +12,9 @@ export const mayors = [
     email: "tom@tomdyas.com",
     website: "https://tomdyas.com/",
     image: "https://www.kelowna.ca/sites/files/1/images/td_0.jpg",
-    blurb: `Tom Dyas is a successful entrepreneur, devoted father and active volunteer in Kelowna. "As your Mayor, my promise to you is to never say that good is good enough. Being a leader means listening and stepping up when others won't - and that's what I'll do."`,
+    blurb:
+      "Tom Dyas is a small business owner and former President of the Chamber of Commerce. Tom is running because while we’ve seen some positive change in recent years, Kelowna now has the highest crime rate in Canada, the most traffic and homelessness we’ve ever seen, while infrastructure has fallen behind.",
+    replied: true,
   },
 
   {
