@@ -30,8 +30,7 @@ export const council = [
     email: "amaritforkelowna@gmail.com",
     website: "https://msha.ke/amaritbrar/",
     image: "https://www.kelowna.ca/sites/files/1/images/ab.jpg",
-    blurb:
-      "Amarit will be a voice to help build and make Kelowna a safer, healthier and stronger place for everyone. A place where we celebrate each other's unique characteristics and use each other's strengths to create a better community, for all.",
+    blurb: "",
   },
   {
     name: "Ron Cannan",
