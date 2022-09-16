@@ -15,6 +15,7 @@ export const school = [
     image: "https://www.kelowna.ca/sites/files/1/images/wayne3.jpg",
     blurb:
       "I've taught mathematics at UBC in Kelowna for 26 years. I am a proud dad and I served on our PAC and COPAC. My priorities include increased provincial funding, inclusion and diversity, and creating students who are lifelong learners and critical thinkers.",
+    replied: true,
   },
   {
     name: "Tovey Demman",
