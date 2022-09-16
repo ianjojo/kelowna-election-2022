@@ -155,8 +155,10 @@ export const council = [
     name: "Tom Macauley",
     email: "tomforkelowna@outlook.com",
     website: "https://www.tomforkelowna.ca/",
-    blurb: "",
+    blurb:
+      "Our city has big problems and we need a bold strategy to solve them. We need fresh perspectives and prevention oriented solutions. I seek to do just that by proposing term limits, creation of advisory committees, and moving our city to a ward system so every neighbourhood can have a voice.",
     image: "https://www.kelowna.ca/sites/files/1/images/image.jpg",
+    replied: true,
   },
   {
     name: "Elaine McMurray",
