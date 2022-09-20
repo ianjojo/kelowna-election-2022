@@ -5,7 +5,8 @@ export const council = [
     website: "https://susanames.ca",
     image: "https://www.kelowna.ca/sites/files/1/images/susan_ames_w_1.jpg",
     blurb:
-      "Susan Ames is looking forward to meeting you and hearing what you have to say. What will make Kelowna the city we all want to live in…a vibrant place for all of us!",
+      "I have over 30 years as an environmental consultant. My PhD focused on climate change. I am the President of KSAN so very involved in community issues. As your councillor, I will work hard on public safety, housing affordability, planning for climate change, the environment, traffic congestion, and homelessness!",
+    replied: true,
   },
   {
     name: "Chris Becenko",
