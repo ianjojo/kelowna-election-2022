@@ -48,7 +48,7 @@ export default function Candidate(props) {
         <p className='blurb'>
           {props.blurb
             ? props.blurb
-            : "Did not respond to my request for a summary."}
+            : "Did not respond to my request for a summary and no information available online."}
         </p>
       </div>
 

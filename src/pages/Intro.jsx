@@ -28,9 +28,12 @@ export default function Intro() {
       </p>
       <p className='intro'>
         I've contacted all candidates and asked for this short summary and so
-        far very few people have responded. I've attempted to fill in the
-        non-responders' summaries with information from the web - if any
-        candidate would like to update their text, send me a message.
+        far about 35% of candidates have responded. I've attempted to fill in
+        the non-responders' summaries with information from the web - if any
+        candidate would like to update their text,{" "}
+        <a href='mailto:ianallanjohnston@gmail.com' class='contactme'>
+          send me a message.
+        </a>
       </p>
       <p className='intro'>
         The candidates who have replied to my email are now marked with a{" "}
@@ -38,8 +41,12 @@ export default function Intro() {
       </p>
       <Countdown deadline={deadline} />
       <p className='intro'>
-        Feel free to contact me with any questions or, if you're a candidate who
-        hasn't submitted a fifty word summary, better late than never!
+        Feel free to{" "}
+        <a href='mailto:ianallanjohnston@gmail.com' class='contactme'>
+          contact me
+        </a>{" "}
+        with any questions or, if you're a candidate who hasn't submitted a
+        fifty word summary, better late than never!
       </p>
     </div>
   );

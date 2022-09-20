@@ -57,7 +57,7 @@ h5 {
 }
 .candidate {
   width: 190px;
-  height: 410px;
+  height: 420px;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
@@ -79,7 +79,7 @@ h5 {
   }
   @include ipadair {
     width: 190px;
-    height: 430px;
+    height: 440px;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;
@@ -96,7 +96,7 @@ h5 {
 
   @include ipadmini {
     width: 190px;
-    height: 410px;
+    height: 440px;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;

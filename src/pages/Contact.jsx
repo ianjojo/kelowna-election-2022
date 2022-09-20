@@ -21,7 +21,9 @@ export default function Contact() {
         platform for the site, please feel free to email me at
         <a href='mailto:ianallanjohnston@gmail.com'>
           ianallanjohnston@gmail.com
-        </a>
+        </a>{" "}
+        or check out my portfolio{" "}
+        <a href='https://ianjojo.netlify.app'>here.</a>
       </p>
       <p>This website was created in ~24 hours using React.js. </p>
     </div>

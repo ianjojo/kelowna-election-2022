@@ -30,7 +30,9 @@ export const council = [
     email: "amaritforkelowna@gmail.com",
     website: "https://msha.ke/amaritbrar/",
     image: "https://www.kelowna.ca/sites/files/1/images/ab.jpg",
-    blurb: "",
+    blurb:
+      "I am passionate about our environment and improving the livability of our city. I will work to immediately implement the Community Safety Plan and pass a 3-30-300 bylaw to green our city. I will work collaboratively with neighbourhoods and promote a ward system, so citizens have better representation.",
+    replied: true,
   },
   {
     name: "Ron Cannan",
@@ -150,6 +152,7 @@ export const council = [
       "My areas of expertise exactly match emerging Kelowna issues.  Engineers are strategic-thinkers and problem solvers who get the job done efficiently and effectively.  I offer sustainable development engineering experience. I’ve been trusted to teach Kelowna’s future leaders, will you trust me with your vote? ",
     image:
       "https://www.kelowna.ca/sites/files/1/images/gord_lovegrove_photo.png",
+    replied: true,
   },
   {
     name: "Tom Macauley",
