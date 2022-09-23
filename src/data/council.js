@@ -83,6 +83,7 @@ export const council = [
     blurb:
       "I believe we ought to assist those needing it most, thereby improving the wellbeing of the entire community through lifting the neediest higher. When those doing the worst find relief, a reduction in mental health needs, addiction and related crime follows. This heals communities, not by redlining a sector of the population.",
     image: "./darrin.jpg",
+    replied: true,
   },
   {
     name: "Gail Given",
