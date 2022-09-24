@@ -31,7 +31,7 @@ export default function Intro() {
         far about 35% of candidates have responded. I've attempted to fill in
         the non-responders' summaries with information from the web - if any
         candidate would like to update their text,{" "}
-        <a href='mailto:ianallanjohnston@gmail.com' class='contactme'>
+        <a href='mailto:ianallanjohnston@gmail.com' className='contactme'>
           send me a message.
         </a>
       </p>
@@ -42,7 +42,7 @@ export default function Intro() {
       <Countdown deadline={deadline} />
       <p className='intro'>
         Feel free to{" "}
-        <a href='mailto:ianallanjohnston@gmail.com' class='contactme'>
+        <a href='mailto:ianallanjohnston@gmail.com' className='contactme'>
           contact me
         </a>{" "}
         with any questions or, if you're a candidate who hasn't submitted a

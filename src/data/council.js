@@ -29,7 +29,7 @@ export const council = [
   {
     name: "Amarit Brar",
     email: "amaritforkelowna@gmail.com",
-    website: "https://msha.ke/amaritbrar/",
+    website: "http://amaritbrarforkelowna.squarespace.com",
     image: "https://www.kelowna.ca/sites/files/1/images/ab.jpg",
     blurb:
       "I am passionate about our environment and improving the livability of our city. I will work to immediately implement the Community Safety Plan and pass a 3-30-300 bylaw to green our city. I will work collaboratively with neighbourhoods and promote a ward system, so citizens have better representation.",

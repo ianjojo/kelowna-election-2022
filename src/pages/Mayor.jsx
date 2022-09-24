@@ -4,8 +4,14 @@ import "../data/mayor";
 import Candidate from "../components/Candidate";
 import { NavLink } from "react-router-dom";
 import { mayors } from "../data/mayor";
+import { useState } from "react";
 
 export default function Mayor() {
+  const [mayor, setMayor] = useState([]);
+  const addToVotingList = (e) => {
+    setMayor(e.target.computedName);
+    console.log(mayor);
+  };
   return (
     <div>
       <ul className='menu'>
@@ -23,6 +29,7 @@ export default function Mayor() {
         {mayors.map((data, key) => {
           return (
             <Candidate
+              addToVotingList={addToVotingList}
               key={uuidv4()}
               name={data.name}
               website={data.website}
