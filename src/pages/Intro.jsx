@@ -37,7 +37,11 @@ export default function Intro() {
       </p>
       <p className='intro'>
         The candidates who have replied to my email are now marked with a{" "}
-        <img className='introcheck' src={check} alt='check mark' /> icon.
+        <img className='introcheck' src={check} alt='check mark' /> icon. Also,
+        I've just launched a version for{" "}
+        <a className='contactme' href='http://kelowna2022.com/west'>
+          West Kelowna.
+        </a>
       </p>
       <Countdown deadline={deadline} />
       <p className='intro'>
