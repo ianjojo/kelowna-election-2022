@@ -68,7 +68,7 @@ export const school = [
   {
     name: "Lee-Ann Tiede",
     email: "voteleeanntiede@gmail.com",
-    website: "",
+    website: "https://reelectlee.com/",
     image: "https://www.kelowna.ca/sites/files/1/images/lt.jpg",
     blurb: "",
   },
