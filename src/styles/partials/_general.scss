@@ -2,6 +2,66 @@ html {
   box-sizing: border-box;
 }
 
+.apexcharts-canvas {
+  font-family: "Proza Libre", sans-serif;
+  margin: 0 auto;
+  color: white;
+}
+
+.results-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.red {
+  width: 20px;
+  height: 20px;
+  background-color: #d9534f;
+  margin-right: 5px;
+}
+
+.results-container {
+  max-width: 700px;
+  padding-left: 18px;
+}
+.h1-results {
+  margin-bottom: 0;
+  @include largetablet {
+  }
+
+  @include tablet {
+    font-size: 20px;
+  }
+
+  @include ipadair {
+    font-size: 20px;
+  }
+
+  @include ipadmini {
+    font-size: 20px;
+  }
+}
+.apexcharts-tooltip {
+  font-family: "Proza Libre", sans-serif !important;
+  background: #000;
+  color: #5952f1;
+}
+/* .apexcharts-bar-area:nth-of-type(1) {
+  fill: #10a2a7 !important;
+}
+
+.apexcharts-bar-area:nth-of-type(7) {
+  fill: #10a2a7 !important;
+} */
+.apexcharts-yaxis-label {
+  color: #ffffff;
+}
+.chart {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
 .App {
   /*   height: 100vh; */
   display: flex;
@@ -31,6 +91,9 @@ html {
   font-family: "Manrope", sans-serif;
 }
 
+.apexcharts-text tspan {
+  font-family: "Proza Libre", sans-serif;
+}
 .proza {
   font-family: "Proza Libre", sans-serif;
 }
