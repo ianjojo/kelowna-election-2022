@@ -159,7 +159,7 @@ class Results extends Component {
             style: {
               colors: ["#fff"],
               fill: "#fff",
-              fontSize: "15px",
+              fontSize: "10px",
               height: 20,
               textTransform: "uppercase",
               fontWeight: 400,
@@ -330,7 +330,7 @@ class Results extends Component {
             maxHeight: 120,
             style: {
               colors: ["#fff", "#fff", "#fff", "#fff", "#fff", "#fff", "#fff"],
-              fontSize: "15px",
+              fontSize: "10px",
 
               textTransform: "uppercase",
               fontWeight: 400,
@@ -498,7 +498,7 @@ class Results extends Component {
             maxHeight: 120,
             style: {
               colors: ["#fff", "#fff", "#fff", "#fff", "#fff", "#fff", "#fff"],
-              fontSize: "15px",
+              fontSize: "10px",
 
               textTransform: "uppercase",
               fontWeight: 400,
