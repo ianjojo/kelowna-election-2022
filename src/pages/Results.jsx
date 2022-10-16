@@ -61,7 +61,7 @@ class Results extends Component {
         fill: {
           colors: [
             function ({ value, seriesIndex, w }) {
-              if (value < 10000) {
+              if (value < 21000) {
                 return "#7E36AF";
               } else {
                 return "#D9534F";
@@ -173,8 +173,8 @@ class Results extends Component {
             "Tom Dyas",
             "Colin Basran",
             "David Habib",
-            "Silverado Socrates",
             "Glendon Smedley",
+            "Silverado Socrates",
           ],
         },
       },
@@ -233,7 +233,7 @@ class Results extends Component {
         fill: {
           colors: [
             function ({ value, seriesIndex, w }) {
-              if (value < 2000) {
+              if (value < 11000) {
                 return "#7E36AF";
               } else {
                 return "#D9534F";
@@ -343,35 +343,36 @@ class Results extends Component {
           categories: [
             "Ron Cannan",
             "Loyal Wooldridge",
-            "Gord Lovegrove",
-            "Luke Stack",
             "Rick Webber",
+            "Gord Lovegrove",
             "Mohini Singh",
+            "Luke Stack",
             "Charlie Hodge",
             "Maxine DeHart",
-            "Chris Becenko",
-            "Chris Bocskei",
-            "Amarit Brar",
-            "Sacheen Collecutt",
-            "Greg Dahms",
-            "Indy Dhial",
-            "Darrin Fiddler",
-            "Gail Given",
-            "Bal Grewal",
-            "Daniel Joseph",
-            "James Kay",
             "Davis Kyle",
-            "Amarjit Singh Lalli",
-            "Tom Macauley",
-            "Elaine McMurray",
-            "Daniel Norman",
-            "Brian Rogers",
-            "Zach Sawatzky",
-            "Dan Schlosser",
-            "Anthony Shephard",
+            "Gail Given",
             "Peter Truch",
             "Noel Wentworth",
+            "Susan Ames",
+            "Bal Grewal",
+            "Elaine McMurray",
+            "Tom Macauley",
+            "James Kay",
+            "Indy Dhial",
+            "Amarit Brar",
             "Chris Williams",
+            "Amarjit Singh Lalli",
+            "Dan Schlosser",
+            "Anthony Shephard",
+            "Sacheen Collecutt",
+            "Chris Bocskei",
+            "Brian Rogers",
+            "Daniel Joseph",
+            "Zach Sawatzky",
+            "Daniel Norman",
+            "Greg Dahms",
+            "Chris Becenko",
+            "Darrin Fiddler",
           ],
         },
       },
@@ -400,7 +401,7 @@ class Results extends Component {
         fill: {
           colors: [
             function ({ value, seriesIndex, w }) {
-              if (value < 2000) {
+              if (value < 11000) {
                 return "#7E36AF";
               } else {
                 return "#D9534F";
@@ -523,23 +524,23 @@ class Results extends Component {
       mayors: [
         {
           name: "Votes",
-          data: [16000, 4000, 2000, 1000, 49],
+          data: [21110, 10821, 1518, 278, 226],
         },
       ],
       council: [
         {
           name: "Votes",
           data: [
-            16000, 4000, 2000, 1000, 49, 5335, 4000, 2000, 1000, 49, 16000,
-            4000, 2000, 1000, 49, 16000, 4000, 2000, 1000, 49, 16000, 4000,
-            2000, 1000, 49, 16000, 4000, 2000, 1000, 49, 4, 49,
+            16995, 14579, 11656, 11493, 11439, 11307, 11238, 11115, 10017, 9408,
+            7873, 7455, 7431, 6790, 6259, 5542, 5434, 4989, 4922, 4693, 4130,
+            4124, 3675, 3037, 2902, 2871, 2699, 2416, 2013, 1898, 1448, 1200,
           ],
         },
       ],
       trustee: [
         {
           name: "Votes",
-          data: [16000, 4000, 2000, 1000, 49, 4279, 472, 327, 472],
+          data: [13480, 13273, 12151, 11905, 7512, 5917, 5886, 5003, 4601],
         },
       ],
       voters: [
@@ -555,9 +556,10 @@ class Results extends Component {
     return (
       <div className='chart'>
         <p className='intro'>
-          This election is over. 32% of the population got out to vote and below
-          are the results. If you'd like something similar built for your
-          municipality's upcoming election, contact me!
+          This election is over! Voter turnout was pretty dismal as usual and
+          below are the results, based on the City of Kelowna's website. If
+          you'd like something similar built for your municipality's upcoming
+          election, contact me!
         </p>
         <div className='results-container'>
           <h1 className='h1-results'>Mayor Results</h1>

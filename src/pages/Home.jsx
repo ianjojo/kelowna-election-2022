@@ -3,7 +3,7 @@ import Results from "./Results";
 function Home() {
   return (
     <div className='container'>
-      {/*       <Results /> */}
+      <Results />
       <Intro />
     </div>
   );
